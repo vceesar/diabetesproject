@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550EF2E623630C4F00F15DC7 /* diabetaXD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 550EF2E423630C4F00F15DC7 /* diabetaXD.xcdatamodeld */; };
+		55105E1623509C0400CB3426 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55105E1523509C0400CB3426 /* OnBoarding.storyboard */; };
+		55105E202350ACDA00CB3426 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55105E1F2350ACDA00CB3426 /* loginViewController.swift */; };
+		55105E242350BC7200CB3426 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55105E232350BC7200CB3426 /* dataViewController.swift */; };
+		5532F3F62361C18E00074AAF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532F3F52361C18E00074AAF /* NavigationViewController.swift */; };
+		5532F3FA2361D00400074AAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532F3F92361D00400074AAF /* HomeViewController.swift */; };
+		5532F3FC2361EBA200074AAF /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532F3FB2361EBA200074AAF /* PopUpVC.swift */; };
+		5532F3FE2361ED1E00074AAF /* modalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532F3FD2361ED1E00074AAF /* modalView.swift */; };
+		5532FA8323606ACD0029FDFD /* CustomBotton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532FA8223606ACD0029FDFD /* CustomBotton.swift */; };
+		5532FA8C23607D880029FDFD /* Baloo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5532FA8B23607D880029FDFD /* Baloo-Regular.ttf */; };
+		555E46FA2363122600FB1E60 /* ListaNome+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E46F82363122600FB1E60 /* ListaNome+CoreDataClass.swift */; };
+		555E46FB2363122600FB1E60 /* ListaNome+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E46F92363122600FB1E60 /* ListaNome+CoreDataProperties.swift */; };
+		5575967A234DF7BF00955C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55759679234DF7BF00955C02 /* AppDelegate.swift */; };
+		5575967F234DF7BF00955C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575967D234DF7BF00955C02 /* Main.storyboard */; };
+		55759681234DF7C000955C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55759680234DF7C000955C02 /* Assets.xcassets */; };
+		55759684234DF7C000955C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55759682234DF7C000955C02 /* LaunchScreen.storyboard */; };
+		557AD6BB236316190084F0C6 /* ListaCarb+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557AD6B9236316190084F0C6 /* ListaCarb+CoreDataClass.swift */; };
+		557AD6BC236316190084F0C6 /* ListaCarb+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557AD6BA236316190084F0C6 /* ListaCarb+CoreDataProperties.swift */; };
+		557AD6C0236320180084F0C6 /* AlimentosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557AD6BF236320180084F0C6 /* AlimentosTVC.swift */; };
+		557AD6C22363202A0084F0C6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557AD6C12363202A0084F0C6 /* Singleton.swift */; };
+		55C18AD5234F4FF100CA1A40 /* FoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C18AD4234F4FF100CA1A40 /* FoodViewCell.swift */; };
+		55C18ADB234F540800CA1A40 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C18ADA234F540800CA1A40 /* FoodViewController.swift */; };
+		55C18ADF234F586900CA1A40 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C18ADE234F586900CA1A40 /* Food.swift */; };
+		55C18AE3234F593A00CA1A40 /* FoodHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C18AE2234F593A00CA1A40 /* FoodHandler.swift */; };
+		55C18AE5234F5AD800CA1A40 /* CarboListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C18AE4234F5AD800CA1A40 /* CarboListing.swift */; };
+		55C18AE9235DE93000CA1A40 /* TACO.json in Resources */ = {isa = PBXBuildFile; fileRef = 55C18AE8235DE93000CA1A40 /* TACO.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550EF2E523630C4F00F15DC7 /* diabetaXD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diabetaXD.xcdatamodel; sourceTree = "<group>"; };
+		55105E1523509C0400CB3426 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		55105E1F2350ACDA00CB3426 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loginViewController.swift; path = ../loginViewController.swift; sourceTree = "<group>"; };
+		55105E232350BC7200CB3426 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
+		55157BAA235F451F00709A31 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5532F3F52361C18E00074AAF /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		5532F3F92361D00400074AAF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5532F3FB2361EBA200074AAF /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		5532F3FD2361ED1E00074AAF /* modalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalView.swift; sourceTree = "<group>"; };
+		5532FA8223606ACD0029FDFD /* CustomBotton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBotton.swift; sourceTree = "<group>"; };
+		5532FA8B23607D880029FDFD /* Baloo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo-Regular.ttf"; sourceTree = "<group>"; };
+		555E46F82363122600FB1E60 /* ListaNome+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListaNome+CoreDataClass.swift"; sourceTree = "<group>"; };
+		555E46F92363122600FB1E60 /* ListaNome+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListaNome+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		55759676234DF7BF00955C02 /* diabetaXD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabetaXD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55759679234DF7BF00955C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5575967E234DF7BF00955C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55759680234DF7C000955C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55759683234DF7C000955C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557AD6B9236316190084F0C6 /* ListaCarb+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListaCarb+CoreDataClass.swift"; sourceTree = "<group>"; };
+		557AD6BA236316190084F0C6 /* ListaCarb+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListaCarb+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		557AD6BF236320180084F0C6 /* AlimentosTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentosTVC.swift; sourceTree = "<group>"; };
+		557AD6C12363202A0084F0C6 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		55C18AD4234F4FF100CA1A40 /* FoodViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewCell.swift; sourceTree = "<group>"; };
+		55C18ADA234F540800CA1A40 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		55C18ADE234F586900CA1A40 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		55C18AE2234F593A00CA1A40 /* FoodHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodHandler.swift; path = ../FoodHandler.swift; sourceTree = "<group>"; };
+		55C18AE4234F5AD800CA1A40 /* CarboListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarboListing.swift; sourceTree = "<group>"; };
+		55C18AE8235DE93000CA1A40 /* TACO.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TACO.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55759673234DF7BF00955C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5532FA8A23607D310029FDFD /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5532FA8B23607D880029FDFD /* Baloo-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		5575966D234DF7BF00955C02 = {
+			isa = PBXGroup;
+			children = (
+				55759678234DF7BF00955C02 /* diabetaXD */,
+				55759677234DF7BF00955C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55759677234DF7BF00955C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55759676234DF7BF00955C02 /* diabetaXD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55759678234DF7BF00955C02 /* diabetaXD */ = {
+			isa = PBXGroup;
+			children = (
+				557AD6B9236316190084F0C6 /* ListaCarb+CoreDataClass.swift */,
+				557AD6BA236316190084F0C6 /* ListaCarb+CoreDataProperties.swift */,
+				555E46F82363122600FB1E60 /* ListaNome+CoreDataClass.swift */,
+				555E46F92363122600FB1E60 /* ListaNome+CoreDataProperties.swift */,
+				55105E232350BC7200CB3426 /* dataViewController.swift */,
+				55105E1F2350ACDA00CB3426 /* loginViewController.swift */,
+				55105E1523509C0400CB3426 /* OnBoarding.storyboard */,
+				5532F3F52361C18E00074AAF /* NavigationViewController.swift */,
+				5532FA8223606ACD0029FDFD /* CustomBotton.swift */,
+				55C18AE2234F593A00CA1A40 /* FoodHandler.swift */,
+				55759679234DF7BF00955C02 /* AppDelegate.swift */,
+				55C18ADA234F540800CA1A40 /* FoodViewController.swift */,
+				55C18ADE234F586900CA1A40 /* Food.swift */,
+				55C18AD4234F4FF100CA1A40 /* FoodViewCell.swift */,
+				5575967D234DF7BF00955C02 /* Main.storyboard */,
+				5532F3FD2361ED1E00074AAF /* modalView.swift */,
+				5532F3FB2361EBA200074AAF /* PopUpVC.swift */,
+				5532F3F92361D00400074AAF /* HomeViewController.swift */,
+				55C18AE4234F5AD800CA1A40 /* CarboListing.swift */,
+				55759682234DF7C000955C02 /* LaunchScreen.storyboard */,
+				55C18AE8235DE93000CA1A40 /* TACO.json */,
+				55157BAA235F451F00709A31 /* Info.plist */,
+				550EF2E423630C4F00F15DC7 /* diabetaXD.xcdatamodeld */,
+				557AD6BF236320180084F0C6 /* AlimentosTVC.swift */,
+				557AD6C12363202A0084F0C6 /* Singleton.swift */,
+				55759680234DF7C000955C02 /* Assets.xcassets */,
+				5532FA8A23607D310029FDFD /* fonts */,
+			);
+			path = diabetaXD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55759675234DF7BF00955C02 /* diabetaXD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55759688234DF7C000955C02 /* Build configuration list for PBXNativeTarget "diabetaXD" */;
+			buildPhases = (
+				55759672234DF7BF00955C02 /* Sources */,
+				55759673234DF7BF00955C02 /* Frameworks */,
+				55759674234DF7BF00955C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diabetaXD;
+			productName = diabetaXD;
+			productReference = 55759676234DF7BF00955C02 /* diabetaXD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5575966E234DF7BF00955C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Aluno Mack";
+				TargetAttributes = {
+					55759675234DF7BF00955C02 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 55759671234DF7BF00955C02 /* Build configuration list for PBXProject "diabetaXD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5575966D234DF7BF00955C02;
+			productRefGroup = 55759677234DF7BF00955C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55759675234DF7BF00955C02 /* diabetaXD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55759674234DF7BF00955C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C18AE9235DE93000CA1A40 /* TACO.json in Resources */,
+				55759684234DF7C000955C02 /* LaunchScreen.storyboard in Resources */,
+				55759681234DF7C000955C02 /* Assets.xcassets in Resources */,
+				5575967F234DF7BF00955C02 /* Main.storyboard in Resources */,
+				55105E1623509C0400CB3426 /* OnBoarding.storyboard in Resources */,
+				5532FA8C23607D880029FDFD /* Baloo-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55759672234DF7BF00955C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55105E242350BC7200CB3426 /* dataViewController.swift in Sources */,
+				55105E202350ACDA00CB3426 /* loginViewController.swift in Sources */,
+				5575967A234DF7BF00955C02 /* AppDelegate.swift in Sources */,
+				55C18AE3234F593A00CA1A40 /* FoodHandler.swift in Sources */,
+				555E46FB2363122600FB1E60 /* ListaNome+CoreDataProperties.swift in Sources */,
+				55C18AE5234F5AD800CA1A40 /* CarboListing.swift in Sources */,
+				555E46FA2363122600FB1E60 /* ListaNome+CoreDataClass.swift in Sources */,
+				5532FA8323606ACD0029FDFD /* CustomBotton.swift in Sources */,
+				55C18ADF234F586900CA1A40 /* Food.swift in Sources */,
+				5532F3FE2361ED1E00074AAF /* modalView.swift in Sources */,
+				5532F3FA2361D00400074AAF /* HomeViewController.swift in Sources */,
+				557AD6C0236320180084F0C6 /* AlimentosTVC.swift in Sources */,
+				557AD6BC236316190084F0C6 /* ListaCarb+CoreDataProperties.swift in Sources */,
+				557AD6C22363202A0084F0C6 /* Singleton.swift in Sources */,
+				55C18ADB234F540800CA1A40 /* FoodViewController.swift in Sources */,
+				5532F3FC2361EBA200074AAF /* PopUpVC.swift in Sources */,
+				5532F3F62361C18E00074AAF /* NavigationViewController.swift in Sources */,
+				557AD6BB236316190084F0C6 /* ListaCarb+CoreDataClass.swift in Sources */,
+				550EF2E623630C4F00F15DC7 /* diabetaXD.xcdatamodeld in Sources */,
+				55C18AD5234F4FF100CA1A40 /* FoodViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5575967D234DF7BF00955C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5575967E234DF7BF00955C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55759682234DF7C000955C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55759683234DF7C000955C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55759686234DF7C000955C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55759687234DF7C000955C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55759689234DF7C000955C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = diabetaXD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nath.diabetaXD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5575968A234DF7C000955C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = diabetaXD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nath.diabetaXD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55759671234DF7BF00955C02 /* Build configuration list for PBXProject "diabetaXD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55759686234DF7C000955C02 /* Debug */,
+				55759687234DF7C000955C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55759688234DF7C000955C02 /* Build configuration list for PBXNativeTarget "diabetaXD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55759689234DF7C000955C02 /* Debug */,
+				5575968A234DF7C000955C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		550EF2E423630C4F00F15DC7 /* diabetaXD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				550EF2E523630C4F00F15DC7 /* diabetaXD.xcdatamodel */,
+			);
+			currentVersion = 550EF2E523630C4F00F15DC7 /* diabetaXD.xcdatamodel */;
+			path = diabetaXD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5575966E234DF7BF00955C02 /* Project object */;
+}

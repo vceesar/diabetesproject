@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jrI-kz-zEe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baloo-Regular.ttf">
+            <string>Baloo</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="1uK-8R-2uw">
+            <objects>
+                <viewController storyboardIdentifier="loginStoryBoard" id="nZ2-2G-1bX" customClass="loginViewController" customModule="diabetaXD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m3L-wH-FyS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loginOB" translatesAutoresizingMaskIntoConstraints="NO" id="jSd-0d-hOw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCh-iq-XJ6" customClass="CustomBotton" customModule="diabetaXD" customModuleProvider="target">
+                                <rect key="frame" x="125" y="435" width="145" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Continuar">
+                                    <color key="titleColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="topButtonTapped:" destination="nZ2-2G-1bX" eventType="touchUpInside" id="psc-WC-Yjk"/>
+                                    <segue destination="JqD-Wr-iDw" kind="show" identifier="loginToData" id="xTv-ct-Rkd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hW0-F8-t7T">
+                                <rect key="frame" x="44" y="340" width="326" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="iU2-C5-Wpg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PzM-EN-I8o"/>
+                    <connections>
+                        <outlet property="nomeTextField" destination="hW0-F8-t7T" id="yEu-0P-vIh"/>
+                        <outlet property="topCustomButton" destination="mCh-iq-XJ6" id="Pl7-Ci-Oq4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wwz-sx-1DC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-397.10144927536237" y="1572.9910714285713"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="L2i-c8-brX">
+            <objects>
+                <viewController storyboardIdentifier="tabelaInsulina" id="JqD-Wr-iDw" customClass="dataViewController" customModule="diabetaXD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A11-F6-f6J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeOB" translatesAutoresizingMaskIntoConstraints="NO" id="RhC-VX-CHg">
+                                <rect key="frame" x="-147" y="-8" width="709" height="917"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 1u" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FiL-1p-JKG">
+                                <rect key="frame" x="85" y="250" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8a9-0I-RUn">
+                                <rect key="frame" x="36" y="39" width="352" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baloo" family="Baloo" pointSize="28"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ex: 18g" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0pA-MQ-WaD">
+                                <rect key="frame" x="231" y="250" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km0-7H-EBm" customClass="CustomBotton" customModule="diabetaXD" customModuleProvider="target">
+                                <rect key="frame" x="134" y="373" width="146" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Continuar">
+                                    <color key="titleColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="JqD-Wr-iDw" eventType="touchUpInside" id="N5n-Ep-mvD"/>
+                                    <action selector="prosseguirButton:" destination="JqD-Wr-iDw" eventType="touchUpInside" id="LRc-MO-cpR"/>
+                                    <action selector="topButtonTapped:" destination="JqD-Wr-iDw" eventType="touchUpInside" id="rvQ-Vh-6mc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="G9A-uE-PPd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2gU-qG-Vwf"/>
+                    <connections>
+                        <outlet property="grAdd" destination="0pA-MQ-WaD" id="OU1-Mw-MRB"/>
+                        <outlet property="topCustomButton" destination="km0-7H-EBm" id="1MG-3l-jND"/>
+                        <outlet property="unAdd" destination="FiL-1p-JKG" id="KRW-E2-whq"/>
+                        <outlet property="welcomeLabekl" destination="8a9-0I-RUn" id="e43-5A-5hB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5gW-tC-b8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.98550724637687" y="1572.9910714285713"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="og0-SY-Em9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jrI-kz-zEe" customClass="NavigationViewController" customModule="diabetaXD" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gAd-mA-xfQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nZ2-2G-1bX" kind="relationship" relationship="rootViewController" id="fPF-rU-7BR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kpg-x1-Zp3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1307.2463768115942" y="1572.9910714285713"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loginOB" width="828" height="1792"/>
+        <image name="welcomeOB" width="828" height="1792"/>
+    </resources>
+</document>
